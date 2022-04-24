@@ -1,6 +1,7 @@
 # Custom
 cell_counts.png
 cell_fitness.png
+.deepsource.toml
 
 # Editors
 .vscode/
