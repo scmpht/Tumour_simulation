@@ -37,5 +37,4 @@ def mutate(cell, rate=0.001):
         else:
             pass
 
-
     cell.updateCell()
