@@ -9,6 +9,8 @@
 
 ***
 
+![GIF](./cansim.gif "Example execution of cansim.py.")
+
 <a name="intro"></a>
 ## Introduction
 
