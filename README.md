@@ -36,7 +36,7 @@ Our mutation function of the genetic algorithm works by iterating through the ge
 
 Lastly, a cellular automaton with a rule-based selection method was used to simulate tumour growth (Figure 2). Firstly, a grid of new cells is defined, and each generation is indicative of cellular replication. After each generation, the mutation function is called on each cell. Mutational noise increases over time within the cell population, as with ageing. Eventually, the fitness function of a cell evaluates to above 0, and the cell is defined as cancerous and turns red. A cell in this cancerous state replicates at twice the rate as a healthy cell, and so it searches its surrounding eight neighbouring cells in the grid. This cancerous cell replaces the least fit neighbour in the population, again undergoing mutation before the next generation. When adjacent to one or more cancer cells, a random cancer cell is selected to perform the crossover function.
 
-![Figure 2](./images/Flowchart.png "Gene arrangement on creation of Cell class.")
+![Figure 2](./images/FlowChart.png "Gene arrangement on creation of Cell class.")
 
 When therapy is added, cancer cells stop dividing and cells on the periphery of the tumour start to die and be replaced by new, healthy cells. However, if a cancer cell is therapy-resistant, it turns green and continues to be able to replace its weakest neighbour in the next generation.
 
